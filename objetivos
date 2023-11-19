@@ -1,0 +1,35 @@
+Implemente um sistema para uma rodoviária que disponibiliza as
+informações sobre os acentos (disponível, reservado, indisponível)
+de um determinado ônibus no painel central da rodoviária e em
+quiosques espalhados pelo terminal rodoviário. Sempre que um
+cliente de dirige ao guichê e compra ou reserva uma passagem o
+painel central e os quiosques são atualizados. O painel central
+apresenta a disposição das cadeiras atualizadas (exibindo em verde
+as disponíveis, em amarelo as reservadas e em vermelho as
+indisponíveis). O quiosque exibe a listagem do número das cadeiras
+juntamente com seu status.
+
+▪ Identifique Source, Listenerer, Event;
+▪ Identifique quais as classes devem fazer parte de quais pacotes(MVC).
+
+LISTERNERS & SUBSCRIBERS
+
+*Listeners
+
+  O objeto tem um vetor de LISTERNERS
+  Ele possui os metodos dele
+  Ele tem métodos que disapram os metodos dele
+  Ele possui metodo para add e rmv listeners dele
+  O objeto cria o evento Java.until.EventObject
+
+*Subscribers
+  O sub tem ter os mesmos métodos que o listeners, recebendo um evento do mesmo tipo
+  -Tem que ter uma classe adapter com os mesmos metodos
+  -Essa classe implementa uma interface chamada #$#$#listener que tem os metodos do listener
+
+RESUMO
+1 - Definir classes de categorias de eventos
+2 - Definir interfaces de listeners
+3 - Definir classes de adaptação
+4 - Definir a classe observavel Source
+5 - Definir objetos listener
