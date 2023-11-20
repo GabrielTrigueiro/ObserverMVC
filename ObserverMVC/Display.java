@@ -3,5 +3,5 @@ package ObserverMVC;
 import java.util.List;
 
 public interface Display {
-  public void update(List<Assentos> o);
+    void update(List<Assentos> assentos);
 }
